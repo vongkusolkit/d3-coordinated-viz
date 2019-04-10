@@ -135,33 +135,6 @@
 };
 
 
-  // //function to create color scale generator for natural breaks
-  // function makeColorScale(data){
-  //     var colorClasses = [
-  //         "#edf8e9",
-  //         "#c7e9c0",
-  //         "#a1d99b",
-  //         "#74c476",
-  //         "#41ab5d",
-  //         "#238b45",
-  //         "#005a32"
-  //     ];
-  //
-  //     //create color scale generator
-  //     var colorScale = d3.scaleQuantile()
-  //         .range(colorClasses);
-  //
-  //     //build two-value array of minimum and maximum expressed attribute values
-  //     var minmax = [
-  //         d3.min(data, function(d) { return parseFloat(d[expressed]); }),
-  //         d3.max(data, function(d) { return parseFloat(d[expressed]); })
-  //     ];
-  //     //assign two-value array as scale domain
-  //     colorScale.domain(minmax);
-  //
-  //     return colorScale;
-  // };
-
 
   //function to create color scale generator
   function makeColorScale(data){
