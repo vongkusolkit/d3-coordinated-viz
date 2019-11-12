@@ -84,14 +84,14 @@ option {
 
 .chartTitle {
     font-family: "Futura";
-    font-size: 1.3em;
+    font-size: 1.1em;
     fill: #000000;
     stroke: #000000;
     stroke-width: 1px
 }
 
 .chartBackground {
-    fill: #c0ded9;
+    fill: #A9CCE3;
 }
 
 .chartFrame {
@@ -123,7 +123,7 @@ option {
 }
 
 .gratBackground {
-    fill: #c0ded9;
+    fill: #A9CCE3;
 }
 
 .gratLines {
